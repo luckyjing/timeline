@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+.timeline {
+    list-style: none;
+    position: relative;
+    width:100%;
+}
+.timeline .line {
+    content: '';
+    position: absolute;
+    top: 45px;
+    height: 10px;
+    width: 100%;
+    background: #dbdbdb;
+}
+.timeline > .line > .timline-dot {
+    z-index: 100;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    color: #fff;
+    background: #c8c8c8;
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px #dbdbdb;
+    top:-10px;
+}
+.color{
+    background: #fc8c84!important;
+    box-shadow: 0 0 0 7px #ffebdc !important;
+}
+.line-mask{
+    content: '';
+    position: absolute;
+    top: 45px;
+    height: 10px;
+    background:#fc8c84;
+}
