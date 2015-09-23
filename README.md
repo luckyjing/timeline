@@ -33,4 +33,9 @@ var opitions = {
 	state:0
 }
 ```
+### Add dots
+```
+$('.timeline').timeLine('add');
+$('.timeline').timeLine({state:x});// the number x you want
+```
 # Now, Enjoy it.
